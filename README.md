@@ -7,4 +7,4 @@ This project of the paper [here](https://ieeexplore.ieee.org/abstract/document/9
 - Auxiliary Classifier GAN (AC-GAN) for augmentation data.
 - also some traditional Machine Learning (ML) classifies.
 
-# Classification-and-Feature-Extraction-for-Hydraulic-Structures-Data-Using-Advanced-CNN-Arc
+
