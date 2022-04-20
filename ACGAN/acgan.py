@@ -24,6 +24,7 @@ data=data[:,:,:,:1]
 data1=[]
 k=np.zeros((100,100,1))
 k=k.astype('float32')
+## remove black images (noise data)
 for i in range (len(data)):
 	if np.array_equal(k,data[i]) ==True:
 		print(i)
