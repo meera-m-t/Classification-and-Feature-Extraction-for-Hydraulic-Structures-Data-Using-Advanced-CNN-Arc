@@ -8,7 +8,8 @@ This project of the paper [here](https://ieeexplore.ieee.org/abstract/document/9
 - also some traditional Machine Learning (ML) classifies.
 
 # Auxiliary Classifier GAN (AC-GAN)
-for data 
+for data data5C.npy run : 
+
 ```bash
 python acgan.py
 ```

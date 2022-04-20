@@ -14,7 +14,9 @@ from keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
 K.common.set_image_dim_ordering('th')
 from PIL import Image
-latent_dim = 140+2
+
+#The latent dimension of GAN is typically set to 100
+latent_dim = 100+2
 
 data = np.load(r"5Cdata/data5C.npy") # 5 channels data,(num,100,100,5), channel 0-4 is DEM,RGB,NIR
 labels = np.load(r"5Cdata/label.npy")
